@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "timestamp": "2025-06-13T21:10:06.608Z",
+    "totalArticles": 3,
+    "successfullyConverted": 3,
+    "failed": 0,
+    "conversionRate": "100.00%"
+  },
+  "categoryBreakdown": {
+    "Getting Started": {
+      "total": 1,
+      "converted": 0,
+      "failed": 0,
+      "articles": [
+        {
+          "title": "Getting Started with DataLion",
+          "status": "unknown"
+        }
+      ]
+    },
+    "User Guide": {
+      "total": 1,
+      "converted": 0,
+      "failed": 0,
+      "articles": [
+        {
+          "title": "Dashboard Overview",
+          "status": "unknown"
+        }
+      ]
+    },
+    "Integrations": {
+      "total": 1,
+      "converted": 0,
+      "failed": 0,
+      "articles": [
+        {
+          "title": "API Reference",
+          "status": "unknown"
+        }
+      ]
+    }
+  },
+  "issues": {
+    "errors": [],
+    "warnings": [],
+    "missingImages": [],
+    "brokenLinks": [
+      "/docs/user-guide/dashboard"
+    ]
+  },
+  "recommendations": [
+    {
+      "type": "info",
+      "message": "3 articles are missing meta descriptions. Consider adding them for better SEO."
+    }
+  ],
+  "nextSteps": [
+    "Review and fix any conversion errors",
+    "Verify all images are properly displayed",
+    "Test internal links between articles",
+    "Add any missing translations",
+    "Configure search indexing",
+    "Set up redirects from old URLs"
+  ]
+}

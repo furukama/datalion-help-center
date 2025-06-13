@@ -17,6 +17,7 @@
     "scrape": "node scripts/scraper/scraper.js",
     "scrape:setup": "node scripts/scraper/setup.js",
     "convert": "node scripts/converter/converter.js",
+    "convert:test": "node scripts/converter/generateTestData.js && node scripts/converter/converter.js",
     "github:setup": "node scripts/setup-github.js"
   },
   "keywords": [],
@@ -33,7 +34,9 @@
     "prism-react-renderer": "^2.4.1",
     "puppeteer": "^24.10.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
   },
   "browserslist": {
     "production": [

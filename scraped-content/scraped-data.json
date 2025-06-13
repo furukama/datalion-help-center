@@ -1,0 +1,178 @@
+{
+  "articles": [
+    {
+      "title": "Getting Started with DataLion",
+      "originalTitle": "Getting Started with DataLion",
+      "slug": "getting-started",
+      "category": "Getting Started",
+      "url": "https://datalion.atlassian.net/articles/getting-started",
+      "docusaurusPath": "/docs/getting-started/getting-started",
+      "htmlContent": "\n          <h1>Getting Started with DataLion</h1>\n          <p>Welcome to DataLion! This guide will help you get up and running quickly.</p>\n          \n          <h2>Prerequisites</h2>\n          <ul>\n            <li>A DataLion account</li>\n            <li>Modern web browser</li>\n            <li>Basic understanding of data analytics</li>\n          </ul>\n          \n          <h2>First Steps</h2>\n          <ol>\n            <li>Log in to your DataLion account</li>\n            <li>Navigate to the Dashboard</li>\n            <li>Create your first project</li>\n          </ol>\n          \n          <div class=\"panel panel-info\">\n            <p><strong>Tip:</strong> You can import existing data from CSV, Excel, or connect to databases.</p>\n          </div>\n          \n          <h2>Creating Your First Dashboard</h2>\n          <p>Follow these steps to create a dashboard:</p>\n          \n          <pre><code class=\"language-javascript\">\nconst dashboard = new Dashboard({\n  title: 'Sales Overview',\n  widgets: ['chart', 'table', 'metric']\n});\n          </code></pre>\n        ",
+      "textContent": "Getting Started with DataLion. Welcome to DataLion! This guide will help you get up and running quickly...",
+      "metadata": {
+        "lastUpdated": "2024-01-15",
+        "author": "DataLion Team"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Getting Started with DataLion",
+          "id": "getting-started-with-datalion"
+        },
+        {
+          "level": 2,
+          "text": "Prerequisites",
+          "id": "prerequisites"
+        },
+        {
+          "level": 2,
+          "text": "First Steps",
+          "id": "first-steps"
+        },
+        {
+          "level": 2,
+          "text": "Creating Your First Dashboard",
+          "id": "creating-your-first-dashboard"
+        }
+      ],
+      "images": [],
+      "links": [
+        {
+          "text": "Dashboard",
+          "href": "/docs/user-guide/dashboard",
+          "isInternal": true
+        }
+      ],
+      "codeBlocks": [
+        {
+          "language": "javascript",
+          "code": "const dashboard = new Dashboard({\n  title: 'Sales Overview',\n  widgets: ['chart', 'table', 'metric']\n});"
+        }
+      ]
+    },
+    {
+      "title": "Dashboard Overview",
+      "originalTitle": "Dashboard Overview",
+      "slug": "dashboard-overview",
+      "category": "User Guide",
+      "url": "https://datalion.atlassian.net/articles/dashboard-overview",
+      "docusaurusPath": "/docs/user-guide/dashboard-overview",
+      "htmlContent": "\n          <h1>Dashboard Overview</h1>\n          <p>The DataLion dashboard is your central hub for data visualization and analysis.</p>\n          \n          <h2>Dashboard Components</h2>\n          <table>\n            <thead>\n              <tr>\n                <th>Component</th>\n                <th>Description</th>\n                <th>Usage</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>Widget</td>\n                <td>Individual visualization element</td>\n                <td>Charts, tables, metrics</td>\n              </tr>\n              <tr>\n                <td>Filter</td>\n                <td>Data filtering controls</td>\n                <td>Date ranges, categories</td>\n              </tr>\n              <tr>\n                <td>Layout</td>\n                <td>Widget arrangement</td>\n                <td>Grid, flex, custom</td>\n              </tr>\n            </tbody>\n          </table>\n          \n          <div class=\"alert alert-warning\">\n            <p><strong>Note:</strong> Dashboard performance depends on data volume and complexity.</p>\n          </div>\n        ",
+      "textContent": "Dashboard Overview. The DataLion dashboard is your central hub...",
+      "metadata": {
+        "lastUpdated": "2024-01-20"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Dashboard Overview",
+          "id": "dashboard-overview"
+        },
+        {
+          "level": 2,
+          "text": "Dashboard Components",
+          "id": "dashboard-components"
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Component",
+            "Description",
+            "Usage"
+          ],
+          "rows": [
+            [
+              "Widget",
+              "Individual visualization element",
+              "Charts, tables, metrics"
+            ],
+            [
+              "Filter",
+              "Data filtering controls",
+              "Date ranges, categories"
+            ],
+            [
+              "Layout",
+              "Widget arrangement",
+              "Grid, flex, custom"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "API Reference",
+      "originalTitle": "API Reference",
+      "slug": "api-reference",
+      "category": "Integrations",
+      "url": "https://datalion.atlassian.net/articles/api-reference",
+      "docusaurusPath": "/docs/integrations/api-reference",
+      "htmlContent": "\n          <h1>API Reference</h1>\n          <p>DataLion provides a comprehensive REST API for integration.</p>\n          \n          <h2>Authentication</h2>\n          <p>All API requests require authentication using an API key:</p>\n          \n          <pre><code class=\"language-bash\">\ncurl -H \"Authorization: Bearer YOUR_API_KEY\" \\\n     https://api.datalion.com/v1/data\n          </code></pre>\n          \n          <h2>Endpoints</h2>\n          <h3>GET /api/v1/dashboards</h3>\n          <p>Retrieve all dashboards for the authenticated user.</p>\n          \n          <h3>POST /api/v1/data</h3>\n          <p>Upload data to DataLion.</p>\n          \n          <pre><code class=\"language-json\">\n{\n  \"dataset\": \"sales\",\n  \"data\": [\n    {\"date\": \"2024-01-01\", \"revenue\": 1000},\n    {\"date\": \"2024-01-02\", \"revenue\": 1500}\n  ]\n}\n          </code></pre>\n        ",
+      "textContent": "API Reference. DataLion provides a comprehensive REST API...",
+      "metadata": {},
+      "headings": [
+        {
+          "level": 1,
+          "text": "API Reference",
+          "id": "api-reference"
+        },
+        {
+          "level": 2,
+          "text": "Authentication",
+          "id": "authentication"
+        },
+        {
+          "level": 2,
+          "text": "Endpoints",
+          "id": "endpoints"
+        },
+        {
+          "level": 3,
+          "text": "GET /api/v1/dashboards",
+          "id": "get-apiv1dashboards"
+        },
+        {
+          "level": 3,
+          "text": "POST /api/v1/data",
+          "id": "post-apiv1data"
+        }
+      ],
+      "codeBlocks": [
+        {
+          "language": "bash",
+          "code": "curl -H \"Authorization: Bearer YOUR_API_KEY\" \\\n     https://api.datalion.com/v1/data"
+        },
+        {
+          "language": "json",
+          "code": "{\n  \"dataset\": \"sales\",\n  \"data\": [\n    {\"date\": \"2024-01-01\", \"revenue\": 1000},\n    {\"date\": \"2024-01-02\", \"revenue\": 1500}\n  ]\n}"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "title": "Getting Started",
+      "id": "getting-started"
+    },
+    {
+      "title": "User Guide",
+      "id": "user-guide"
+    },
+    {
+      "title": "Integrations",
+      "id": "integrations"
+    }
+  ],
+  "urlMappings": {
+    "https://datalion.atlassian.net/articles/getting-started": "/docs/getting-started/getting-started",
+    "https://datalion.atlassian.net/articles/dashboard-overview": "/docs/user-guide/dashboard-overview",
+    "https://datalion.atlassian.net/articles/api-reference": "/docs/integrations/api-reference"
+  },
+  "metadata": {
+    "scrapedAt": "2025-06-13T21:10:06.453Z",
+    "totalArticles": 3,
+    "totalCategories": 3,
+    "totalImages": 0
+  }
+}
