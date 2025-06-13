@@ -26,16 +26,16 @@ export default function NotFound() {
                 <h3>Here are some helpful links:</h3>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ marginBottom: '0.5rem' }}>
-                    <Link to="/docs">📚 Documentation Home</Link>
+                    <Link to="/datalion-help-center/docs">📚 Documentation Home</Link>
                   </li>
                   <li style={{ marginBottom: '0.5rem' }}>
-                    <Link to="/docs/getting-started">🚀 Getting Started Guide</Link>
+                    <Link to="/datalion-help-center/docs/getting-started">🚀 Getting Started Guide</Link>
                   </li>
                   <li style={{ marginBottom: '0.5rem' }}>
-                    <Link to="/docs/user-guide">📖 User Guide</Link>
+                    <Link to="/datalion-help-center/docs/user-guide">📖 User Guide</Link>
                   </li>
                   <li style={{ marginBottom: '0.5rem' }}>
-                    <Link to="/docs/troubleshooting">🔧 Troubleshooting</Link>
+                    <Link to="/datalion-help-center/docs/integrations">🔧 Integrations</Link>
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@ export default function NotFound() {
               <div className="margin-top--lg">
                 <Link
                   className="button button--primary button--lg"
-                  to="/docs">
+                  to="/datalion-help-center/docs">
                   Go to Documentation
                 </Link>
               </div>
