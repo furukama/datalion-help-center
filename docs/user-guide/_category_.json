@@ -1,0 +1,12 @@
+{
+  "label": "User Guide",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "DataLion User Guide",
+    "description": "Comprehensive guides for all DataLion features including dashboards, reports, and analytics.",
+    "keywords": ["user guide", "features", "dashboards", "reports", "analytics"]
+  },
+  "collapsible": true,
+  "collapsed": true
+}

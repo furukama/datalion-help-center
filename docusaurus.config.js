@@ -5,6 +5,13 @@ const config = {
   title: 'DataLion Help Center',
   tagline: 'Your guide to using DataLion effectively',
   favicon: 'img/favicon.ico',
+  
+  // Custom fields
+  customFields: {
+    companyName: 'DataLion',
+    supportEmail: 'support@datalion.com',
+    tagline: 'Insight is King'
+  },
 
   // Set the production url of your site here
   url: 'https://help.datalion.com',
