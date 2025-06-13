@@ -9,6 +9,4 @@ Welcome to the User Guide section of the DataLion Help Center.
 
 ## Available Articles
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
+- [Dashboard Overview](./dashboard-overview) - Learn about the DataLion dashboard and its features

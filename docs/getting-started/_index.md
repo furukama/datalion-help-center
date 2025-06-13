@@ -62,3 +62,7 @@ const dashboard = new Dashboard({
 
 
 ```
+
+## Available Articles
+
+This section contains guides to help you get started with DataLion. Check back soon for more articles!

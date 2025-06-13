@@ -9,9 +9,11 @@ Welcome to the DataLion Help Center. Browse our documentation by category below.
 
 ## Categories
 
-import DocCardList from '@theme/DocCardList';
+Browse our documentation by category:
 
-<DocCardList />
+- [Getting Started](/docs/getting-started) - Learn the basics and get up and running
+- [User Guide](/docs/user-guide) - Detailed guides for all features  
+- [Integrations](/docs/integrations) - Connect with your tools
 
 ## Getting Help
 

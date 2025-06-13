@@ -9,6 +9,4 @@ Welcome to the Integrations section of the DataLion Help Center.
 
 ## Available Articles
 
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
+- [API Reference](./api-reference) - Comprehensive documentation for the DataLion REST API
