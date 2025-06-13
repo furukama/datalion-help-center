@@ -14,13 +14,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://help.datalion.com',
+  url: 'https://furukama.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/datalion-help-center/',
 
   // GitHub pages deployment config
-  organizationName: 'datalion', // Usually your GitHub org/user name
+  organizationName: 'furukama', // Usually your GitHub org/user name
   projectName: 'datalion-help-center', // Usually your repo name
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

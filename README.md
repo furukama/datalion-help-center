@@ -1,6 +1,11 @@
 # DataLion Help Center
 
+[![Deploy to GitHub Pages](https://github.com/furukama/datalion-help-center/actions/workflows/deploy.yml/badge.svg)](https://github.com/furukama/datalion-help-center/actions/workflows/deploy.yml)
+[![Test Build](https://github.com/furukama/datalion-help-center/actions/workflows/test-build.yml/badge.svg)](https://github.com/furukama/datalion-help-center/actions/workflows/test-build.yml)
+
 This is the official help documentation for DataLion, built with Docusaurus.
+
+🌐 **Live Site**: [https://furukama.github.io/datalion-help-center/](https://furukama.github.io/datalion-help-center/)
 
 ## Installation
 
@@ -60,8 +65,15 @@ Place images in `static/img/` and reference them in Markdown:
 ## Configuration
 
 - Main configuration: `docusaurus.config.js`
-- Sidebar configuration: `sidebars.js`
+- Sidebar configuration: Auto-generated from folder structure
 - Custom CSS: `src/css/custom.css`
+- Brand colors: `#cd9542` (DataLion gold)
+
+## Deployment
+
+The site automatically deploys to GitHub Pages when changes are pushed to the main branch.
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 ## Project Structure
 
