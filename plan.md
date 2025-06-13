@@ -59,6 +59,7 @@ Based on the migrated content, set up:
 - Search configuration
 - Language switching (prepare structure for German translation)
 - Custom CSS for DataLion branding
+- Use the colors from datalion.com
 - Footer and header customization
 - 404 page and error handling
 ```

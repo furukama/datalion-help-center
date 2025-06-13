@@ -45,11 +45,14 @@ const config = {
       'classic',
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: false, // Auto-generate from folder structure
           // Please change this to your repo
           editUrl: 'https://github.com/datalion/datalion-help-center/tree/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          breadcrumbs: true,
+          sidebarCollapsible: true,
+          sidebarCollapsed: false,
         },
         blog: false,
         theme: {
