@@ -12,7 +12,7 @@ Set up a new Docusaurus project for DataLion help center with the following requ
 - Create a proper folder structure for organizing help articles
 ```
 
-## Phase 2: Content Scraping Strategy
+## Phase 2: Content Scraping Strategy ✅ COMPLETED
 ```
 I need you to scrape all content from our Atlassian help center at https://datalion.atlassian.net/servicedesk/customer/portals
 
