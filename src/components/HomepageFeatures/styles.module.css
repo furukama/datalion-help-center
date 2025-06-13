@@ -1,0 +1,46 @@
+/* ABOUTME: Styles for homepage features grid
+ * ABOUTME: Defines card layout and hover effects for feature sections */
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.feature {
+  padding: 2rem;
+  height: 100%;
+  text-align: left;
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+.feature:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.feature h3 {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.feature p {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.featureLink {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.featureLink:hover {
+  text-decoration: underline;
+}
