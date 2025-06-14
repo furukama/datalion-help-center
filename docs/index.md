@@ -11,9 +11,9 @@ Welcome to the DataLion Help Center. Browse our documentation by category below.
 
 Browse our documentation by category:
 
-- [Getting Started](./getting-started) - Learn the basics and get up and running
-- [User Guide](./user-guide) - Detailed guides for all features  
-- [Integrations](./integrations) - Connect with your tools
+- [Getting Started](getting-started/) - Learn the basics and get up and running
+- [User Guide](user-guide/) - Detailed guides for all features  
+- [Integrations](integrations/) - Connect with your tools
 
 ## Getting Help
 

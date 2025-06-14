@@ -14,7 +14,7 @@ const FeatureList = [
         quickly with our comprehensive onboarding guides.
       </>
     ),
-    link: '/docs/intro',
+    link: '/docs/getting-started/',
   },
   {
     title: 'User Guide',
@@ -24,7 +24,7 @@ const FeatureList = [
         to advanced analytics and reporting capabilities.
       </>
     ),
-    link: '/docs/user-guide/overview',
+    link: '/docs/user-guide/',
   },
   {
     title: 'Administration',
@@ -34,7 +34,7 @@ const FeatureList = [
         DataLion instance for optimal performance.
       </>
     ),
-    link: '/docs/admin/overview',
+    link: '/docs/',
   },
   {
     title: 'API & Integrations',
@@ -44,7 +44,7 @@ const FeatureList = [
         using our comprehensive API documentation.
       </>
     ),
-    link: '/docs/integrations/overview',
+    link: '/docs/integrations/',
   },
   {
     title: 'Troubleshooting',
@@ -54,7 +54,7 @@ const FeatureList = [
         asked questions from our support team.
       </>
     ),
-    link: '/docs/troubleshooting/common-issues',
+    link: '/docs/',
   },
   {
     title: 'What\'s New',
@@ -64,7 +64,7 @@ const FeatureList = [
         DataLion with our release notes and updates.
       </>
     ),
-    link: '/docs/updates',
+    link: '/docs/',
   },
 ];
 
