@@ -1,0 +1,134 @@
+# ABOUTME: GitHub Actions workflow for automated QA checks
+# ABOUTME: Runs on pull requests and can be triggered manually
+
+name: QA Check
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to check'
+        required: true
+        default: 'build'
+        type: choice
+        options:
+          - build
+          - production
+
+permissions:
+  contents: read
+  pull-requests: write
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  qa-check:
+    name: Run QA Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build website
+        if: github.event.inputs.environment != 'production'
+        run: npm run build
+
+      - name: Run QA checks
+        id: qa
+        run: |
+          if [ "${{ github.event.inputs.environment }}" = "production" ]; then
+            node scripts/qa/qa-check.js --production
+          else
+            node scripts/qa/qa-check.js
+          fi
+        continue-on-error: true
+
+      - name: Upload QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-report
+          path: qa-report.json
+
+      - name: Comment PR with results
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = { totalChecks: 0, passed: 0, warnings: 0, failed: 0, errors: [], warnings: [] };
+            
+            try {
+              report = JSON.parse(fs.readFileSync('qa-report.json', 'utf8'));
+            } catch (e) {
+              console.error('Could not read QA report');
+            }
+            
+            const status = report.failed > 0 ? '❌ Failed' : 
+                          report.warnings > 10 ? '⚠️ Passed with warnings' : 
+                          '✅ Passed';
+            
+            let body = `## QA Check Results: ${status}
+            
+            | Check | Count |
+            |-------|-------|
+            | Total Checks | ${report.totalChecks} |
+            | ✅ Passed | ${report.passed} |
+            | ⚠️ Warnings | ${report.warnings} |
+            | ❌ Failed | ${report.failed} |
+            `;
+            
+            if (report.errors.length > 0) {
+              body += '\n\n### ❌ Errors (must fix):\n';
+              report.errors.slice(0, 5).forEach(error => {
+                body += `- ${error}\n`;
+              });
+              if (report.errors.length > 5) {
+                body += `- ...and ${report.errors.length - 5} more errors\n`;
+              }
+            }
+            
+            if (report.warnings.length > 0) {
+              body += '\n\n### ⚠️ Warnings (should fix):\n';
+              report.warnings.slice(0, 5).forEach(warning => {
+                body += `- ${warning}\n`;
+              });
+              if (report.warnings.length > 5) {
+                body += `- ...and ${report.warnings.length - 5} more warnings\n`;
+              }
+            }
+            
+            body += '\n\n[View full QA report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})';
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+
+      - name: Set exit code
+        if: always()
+        run: |
+          if [ -f qa-report.json ]; then
+            FAILED=$(jq -r '.failed' qa-report.json)
+            if [ "$FAILED" -gt 0 ]; then
+              echo "❌ QA check failed with $FAILED errors"
+              exit 1
+            fi
+          fi

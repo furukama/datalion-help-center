@@ -18,7 +18,11 @@
     "scrape:setup": "node scripts/scraper/setup.js",
     "convert": "node scripts/converter/converter.js",
     "convert:test": "node scripts/converter/generateTestData.js && node scripts/converter/converter.js",
-    "github:setup": "node scripts/setup-github.js"
+    "github:setup": "node scripts/setup-github.js",
+    "qa": "node scripts/qa/qa-simple.js",
+    "qa:quick": "node scripts/qa/run-qa.js --quick",
+    "qa:build": "node scripts/qa/run-qa.js --build",
+    "qa:production": "node scripts/qa/run-qa.js --production"
   },
   "keywords": [],
   "author": "",
@@ -31,12 +35,14 @@
     "cheerio": "^1.1.0",
     "clsx": "^2.1.1",
     "fs-extra": "^11.3.0",
+    "glob": "^11.0.3",
     "prism-react-renderer": "^2.4.1",
     "puppeteer": "^24.10.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "turndown": "^7.2.0",
-    "turndown-plugin-gfm": "^1.0.2"
+    "turndown-plugin-gfm": "^1.0.2",
+    "yargs": "^18.0.0"
   },
   "browserslist": {
     "production": [
