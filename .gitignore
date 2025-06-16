@@ -28,3 +28,12 @@ yarn-error.log*
 # Temporary files
 *.tmp
 *.temp
+temp/
+scraped-content/
+docs-backup-xml/
+missing-images-report.txt
+HTML-CONVERSION-SUMMARY.md
+
+# Environment files
+.env
+.env.example
