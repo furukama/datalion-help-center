@@ -63,14 +63,12 @@ Der Code im Eingabefeld **Gewichtungsskript-Konfiguration** erzeugt Gewichte, s
 
 **Beispiel**: Der untenstehende Code erstellt Gewichte, so dass die Verteilung der beiden Ausprägungen "0" und "1" der Variable "Q1" 60 % zu 40 % ist:
 
-``
-`{"label": "Update weights", "type": "cell", "targets": {"Q1": {"0": 0.6, "1": 0.4}}, "weight_column": "weight", "id_column": "id"}
-``
+`{"label": "Update weights", "type": "cell", "targets": {"Q1": {"0": 0.6, "1": 0.4}}, "weight_column": "weight", "id_column": "id"}`
+
 1.  **GewichtungsskriptParameter:** 
-    
 
 **"label"**: "Update weights"  
 **"type"**: "Cell": Berechnet die Gewichte auf Basis der Zellen  
-**"targets"**: Zielvariable auf Basis derer die Gewichte berechnet werden sollen und Gewichtungsvorgabe in diesem Format: `{"Variable": {"Auprägung1": Anteil, "Ausprägung2": Anteil}}  
+**"targets"**: Zielvariable auf Basis derer die Gewichte berechnet werden sollen und Gewichtungsvorgabe in diesem Format: `{"Variable": {"Auprägung1": Anteil, "Ausprägung2": Anteil}}`
 **"weight\_column"**: Name der Gewichtungsvariable der Gewichtungstabelle  
 **"id\_column"**: Spalte im Datensatz in dem eine eindeutige ID steht. Normalerweise ist das die Key Variable, welche die Gewichtungstabelle mit der Datentabelle verknüpft.

@@ -17,7 +17,7 @@ In diesem CSS-File definieren Sie Ihr CSS für das Theme. Es enthält alle Selek
 
 So kann Ihr CSS beispielsweise aussehen: 
 
-``
+```
 #page-wrapper, .footer {
     background-color: teal;
     font-family: fixedsys, consolas, monospace;
@@ -28,7 +28,7 @@ So kann Ihr CSS beispielsweise aussehen: 
     padding-top: 20px;
 }
 
-.grid-stack `>` .grid-stack-item `>` .grid-stack-item-content {
+.grid-stack > .grid-stack-item > .grid-stack-item-content {
     left: 0;
     right: 0;
     margin-top: 0px;
@@ -73,7 +73,7 @@ So kann Ihr CSS beispielsweise aussehen: 
     border-radius: 0;
 }
 
-.chart__header `>` .pull-right {
+.chart__header > .pull-right {
     width: 100%;
     position: absolute;
     top: 28px;
@@ -112,7 +112,7 @@ So kann Ihr CSS beispielsweise aussehen: 
     width: 26px;
 }
 
-.chart__title `>` i {
+.chart__title > i {
     display: none;
 }
 
@@ -181,12 +181,12 @@ So kann Ihr CSS beispielsweise aussehen: 
     border-radius: 0;
 }
 
-.dropdown-menu `>` li `>` a {
+.dropdown-menu > li > a {
     padding: 5px;
     font-weight: 600;
 }
 
-.dropdown-menu `>` li.active `>` a {
+.dropdown-menu > li.active > a {
     background: #000080;
     color: #fff;
     left: 0;
@@ -201,7 +201,7 @@ So kann Ihr CSS beispielsweise aussehen: 
     size: 14px;
     font-weight: 600;
 }
-``
+```
 Navigieren Sie in DataLion im Admin-Bereich zu **Charts und Farben>Themes**. Klicken Sie auf **Neu** um Ihr CSS-File zu importieren, vergeben Sie einen Namen für das Theme und speichern Sie. Nun steht Ihnen das Theme zur Auswahl als Default-Theme in Ihren Projekten zur Verfügung. 
 
 ![image-20240410-124328.png](/img/17465348.png)

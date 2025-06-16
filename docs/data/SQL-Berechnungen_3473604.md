@@ -17,27 +17,27 @@ KPIs, wie z.B. der Net Promoter Score (NPS-Score), können automatisiert berechn
 
 Folgende Befehle werden in DataLion häufig verwendet:
 
-**Summe:**   {{=SUM(Variable)}}
+**Summe:**   `{{=SUM(Variable)}}`
 
-**Summe mit Bedingung:**   {{=SUM(CASE WHEN Variable = Wert THEN Summenvariable ELSE 0 END)}}
+**Summe mit Bedingung:**   `{{=SUM(CASE WHEN Variable = Wert THEN Summenvariable ELSE 0 END)}}`
 
-**Runden:**  {{=ROUND(Variable, Nachkommastellen)}}
+**Runden:**  `{{=ROUND(Variable, Nachkommastellen)}}`
 
-**Zählen:**  {{=COUNT(Variable)}}
+**Zählen:**  `{{=COUNT(Variable)}}`
 
-**Zählen distinkter Werte:**   {{=COUNT(DISTINCT Variable)}}
+**Zählen distinkter Werte:**   `{{=COUNT(DISTINCT Variable)}}`
 
-**Division:**    {{=ROUND(SUM(MarkeA)/COUNT(MarkeA),2)}}
+**Division:**    `{{=ROUND(SUM(MarkeA)/COUNT(MarkeA),2)}}`
 
-**Prozentualer Anteil der Werte = "1 oder 2" an den Werten = "1 oder 2 oder 3 oder 4" der Variable var\_item:**    {{= (SUM(CASE WHEN var\_item IN (1,2) THEN 1 ELSE NULL END)/SUM(CASE WHEN var\_item IN (1,2,3,4) THEN 1 ELSE NULL END))\*100}}
+**Prozentualer Anteil der Werte = "1 oder 2" an den Werten = "1 oder 2 oder 3 oder 4" der Variable var\_item:**    `{{= (SUM(CASE WHEN var_item IN (1,2) THEN 1 ELSE NULL END)/SUM(CASE WHEN var_item IN (1,2,3,4) THEN 1 ELSE NULL END))*100}}`
 
-**Mittelwert:** {{= AVG(var\_item)}}
+**Mittelwert:** `{{= AVG(var_item)}}`
 
-**Mittelwert definierter Werte einer Variable:** {{= (SUM(CASE WHEN var\_item IN (1,2,3,4) THEN var\_item ELSE NULL END)/COUNT(CASE WHEN var\_item IN (1,2,3,4) THEN 1 ELSE NULL END))}}
+**Mittelwert definierter Werte einer Variable:** `{{= (SUM(CASE WHEN var_item IN (1,2,3,4) THEN var_item ELSE NULL END)/COUNT(CASE WHEN var_item IN (1,2,3,4) THEN 1 ELSE NULL END))}}`
 
 ## SQL-Berechnungen vs. SQL-Filter
 
-In DataLion ist es nicht nur möglich, mit SQL-Berechnungen beliebige Formeln zu evaluieren, sondern auch Filter können mit SQL-Syntax definiert werden. Zur Unterscheidung zu **SQL-Formeln**, die mit {{= ... }} definiert werden, werden **SQL-Filter** mit {{ ... }} definiert. 
+In DataLion ist es nicht nur möglich, mit SQL-Berechnungen beliebige Formeln zu evaluieren, sondern auch Filter können mit SQL-Syntax definiert werden. Zur Unterscheidung zu **SQL-Formeln**, die mit `{{= ... }}` definiert werden, werden **SQL-Filter** mit `{{ ... }}` definiert. 
 
 So kann zum Beispiel ein ODER-Filter wie folgt definiert werden:
 
