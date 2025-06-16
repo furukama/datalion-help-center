@@ -121,7 +121,7 @@ _**Spalte „Settings“ (Farbschema)**_ 
 
 Im Codebook kann auch pro Frage/Measure ein individuelles Farbschema konfiguriert werden.
 
-z.B.: `{"colorscheme":{"scheme":["#ffffff,#dddddd"]}}
+z.B.: `{"colorscheme":{"scheme":["#ffffff,#dddddd"]}}`
 
 ![mceclip6.png](/img/3539068.png)
 

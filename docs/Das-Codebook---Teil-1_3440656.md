@@ -60,7 +60,7 @@ Bei nicht-numerischen Variablen, d.h. die Ausprägungen sollen als Text angezeig
 
 1.  Jede Ausprägung wird mit ihrem zugehörigen Wert (Value; Wert, der in den Daten steht) und der gewünschten Beschriftung (Label) angelegt. DataLion liest die spezifierten Werte aus den Daten und verarbeitet diese entsprechend
     
-2.  Ausprägungen sollen direkt aus den Daten ausgelesen werden. In diesem Fall wird im Codebook der Value <label> verwendet. Der Wert <label> eignet sich insbesondere bei vielen Textausprägungen, wenn beispielsweise Markennamen abgefragt werden und sich diese Nennungen zwischen einzelnen Erhebungszeitpunkten unterscheiden. Die Werte können in diesem Fall nicht abweichend durch das Label benannt werden
+2.  Ausprägungen sollen direkt aus den Daten ausgelesen werden. In diesem Fall wird im Codebook der Value `<label>` verwendet. Der Wert `<label>` eignet sich insbesondere bei vielen Textausprägungen, wenn beispielsweise Markennamen abgefragt werden und sich diese Nennungen zwischen einzelnen Erhebungszeitpunkten unterscheiden. Die Werte können in diesem Fall nicht abweichend durch das Label benannt werden
     
 
 ![mceclip1.png](/img/3539038.png?width=760)
@@ -113,7 +113,7 @@ Daneben kann auch die Sortierungsreihenfolge in den Charteinstellungen (z.B. auf
 
 **WICHTIG:** Beim Hochladen des Codebooks muss Spalte mit der Spalte „Variable Display“ verknüpft werden.
 
-***Spalte „Position\_id“***
+**_Spalte „Position\_id“_**
 
 Im Codebook kann zudem auch das Navigationsmenü durch die Spalte „position\_id“ festgelegt werden, d.h. welche Variablen ein- und ausgeblendet werden.
 
@@ -121,11 +121,11 @@ Im Codebook kann zudem auch das Navigationsmenü durch die Spalte „position\_i
 
 **WICHTIG:** Beim Hochladen des Codebooks müssen die neuen Spalten mit der Spalte „Variable Display“ verknüpft werden.
 
-***Spalte „Settings“ (Farbschema)*** 
+**_ Spalte "Settings" (Farbschema) _**
 
 Im Codebook kann auch pro Frage/Measure ein individuelles Farbschema konfiguriert werden.
 
-z.B.: {"colorscheme":{"scheme":\["#ffffff,#dddddd"\]}}
+z.B.: `{"colorscheme":{"scheme":["#ffffff,#dddddd"]}}`
 
 ![mceclip6.png](/img/3539068.png?width=760)
 

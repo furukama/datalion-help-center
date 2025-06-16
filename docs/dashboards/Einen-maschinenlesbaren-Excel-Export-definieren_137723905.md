@@ -22,19 +22,19 @@ Aktuell ist diese Option für folgende Charttypen verfügbar: Säulen, Balken, g
 -   Unter “Excel-Exporteinstellungen” können Sie das Exportformat als maschinenlesbar definieren
     
 -   Schreiben Sie dazu folgenden JSON in das entsprechende Feld:  
-    **`[{**"machine\_readable": true, "metrics": ["p", "wn"], "filters": ["f3956", "f3957"]**}]**
+    `[{"machine_readable": true, "metrics": ["p", "wn"], "filters": ["f3956", "f3957"]}]`
     
 
 ![image-20250107-131028.png](/img/137756673.png)
 
 -   Komponenten der Definition
     
-    -   “machine:readable”: true → der Excel-Export dieses Reports wird in dem maschinenlesbaren Format ausgeführt
+    -   `"machine:readable": true` → der Excel-Export dieses Reports wird in dem maschinenlesbaren Format ausgeführt
         
-    -   “metrics”:[“p”,”wn”] → legen Sie fest, welche Metriken der Charts in dem Report exportiert werden sollen.  
+    -   `"metrics":["p","wn"]` → legen Sie fest, welche Metriken der Charts in dem Report exportiert werden sollen.  
         p = Prozent, wn = gewichtete Fälle
         
-    -   “filters”:["f3956", "f3957"] → legen Sie fest, welche von Ihnen erstellten Filter standardmäßig exportiert werden sollen  
+    -   `"filters":["f3956", "f3957"]` → legen Sie fest, welche von Ihnen erstellten Filter standardmäßig exportiert werden sollen  
         **Hinweis**: wenn auf dem Dashboard ein Benchmark Dashboard Filter definiert ist, so werden etwaige dort ausgewählte Filter zusätzlich zu den hier definierten Filtrn definiert. Sollen nur Filter exportiert werden, die im Dashboard ausgewählt wurden, so lassen Sie den “filters” Befehl an dieser Stelle weg
         
 

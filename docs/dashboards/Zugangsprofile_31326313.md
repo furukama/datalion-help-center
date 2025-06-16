@@ -77,7 +77,7 @@ Mit der Funktion „Kategorien ein-/ausschließen“ kann die Darstellung bestim
 
 **Filter**
 
-"Filter" setzt einen globalen Filter für alle Benutzer mit diesem Zugangsprofil. Die Daten werden für das Zugangsprofil auf die ausgewählte Ausprägung heruntergefiltert. Über das Lupensymbol kann die gewünschte Filterkategorie ausgewählt werden. Um auf mit ODER verknüpfte Zielgruppen zu filtern, muss die Zielgruppe zunächst mit der ODER-Verknüpfung im Codebook angelegt werden und kann dann über die Lupe ausgewählt werden, z.B. {{'Marke' A OR 'Marke B'}}.
+"Filter" setzt einen globalen Filter für alle Benutzer mit diesem Zugangsprofil. Die Daten werden für das Zugangsprofil auf die ausgewählte Ausprägung heruntergefiltert. Über das Lupensymbol kann die gewünschte Filterkategorie ausgewählt werden. Um auf mit ODER verknüpfte Zielgruppen zu filtern, muss die Zielgruppe zunächst mit der ODER-Verknüpfung im Codebook angelegt werden und kann dann über die Lupe ausgewählt werden, z.B. `{{'Marke' A OR 'Marke B'}}`.
 
 ![](/img/31326379.png)
 

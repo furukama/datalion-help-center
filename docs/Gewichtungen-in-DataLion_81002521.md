@@ -26,7 +26,7 @@ Die Einstellungen für Gewichte können im Projekt-Backend unter **Einstellungen
 **(1) Gewichte/Weights**: Gewichtungsvariable eintragen (Bezeichnung der Variable im Datensatz). Bei mehreren Gewichtungsvariablen kommagetrennt eingeben (Achtung! Ohne Leerzeichen trennen).  
 Es ist auch möglich, Formeln zur Berechnung der Gewichte zu verwenden (Beispiel: Gewicht1\*2\*Variable | multipliziert Gewichtungsvariable Gewicht1 mit 2 und einer weiteren Variable).
 
-**(2) Legende für Gewichte/Weight legend**: Eingeben, wie die Variable(n) im Frontend für die User bezeichnet sein sollen (*Beispiel: \["Gewicht1","Gewicht2-id","Gewicht2-id&monat"\]*)
+**(2) Legende für Gewichte/Weight legend**: Eingeben, wie die Variable(n) im Frontend für die User bezeichnet sein sollen (*Beispiel: `["Gewicht1","Gewicht2-id","Gewicht2-id&monat"]`*)
 
 **(3) Gewichte zur Basis/Weights to base**: Optional Basis eingeben zu der die Gewichte berechnet werden sollen. 
 
@@ -67,11 +67,11 @@ Der Code im Eingabefeld **Gewichtungsskript-Konfiguration** erzeugt Gewichte, s
 
 **Beispiel**: Der untenstehende Code erstellt Gewichte, so dass die Verteilung der beiden Ausprägungen "0" und "1" der Variable "Q1" 60 % zu 40 % ist:
 
-```plain
+```
 {"label": "Update weights", "type": "cell", "targets": {"Q1": {"0": 0.6, "1": 0.4}}, "weight_column": "weight", "id_column": "id"}
 ```
 
 1.  **GewichtungsskriptParameter:** 
     
 
-"label": "Update weights""type": "Cell": Berechnet die Gewichte auf Basis der Zellen"targets": Zielvariable auf Basis derer die Gewichte berechnet werden sollen und Gewichtungsvorgabe in diesem Format: {"Variable": {"Auprägung1": Anteil, "Ausprägung2": Anteil}}"weight_column": Name der Gewichtungsvariable der Gewichtungstabelle"id_column": Spalte im Datensatz in dem eine eindeutige ID steht. Normalerweise ist das die Key Variable, welche die Gewichtungstabelle mit der Datentabelle verknüpft.
+"label": "Update weights""type": "Cell": Berechnet die Gewichte auf Basis der Zellen"targets": Zielvariable auf Basis derer die Gewichte berechnet werden sollen und Gewichtungsvorgabe in diesem Format: `{"Variable": {"Auprägung1": Anteil, "Ausprägung2": Anteil}}` "weight_column": Name der Gewichtungsvariable der Gewichtungstabelle"id_column": Spalte im Datensatz in dem eine eindeutige ID steht. Normalerweise ist das die Key Variable, welche die Gewichtungstabelle mit der Datentabelle verknüpft.

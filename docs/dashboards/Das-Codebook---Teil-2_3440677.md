@@ -64,7 +64,7 @@ Recode bedeutet, dass man durch die Formulierung von Bedingungen, die auf einer 
 
 Berechnung bedeutet, dass aus einer bestehenden Variable eine neue Variable berechnet wird. Berechnete Variablen können nicht als Filter verwendet werden.
 
-Grundlage für Recodes: Damit Recodes auch als Filter benutzt werden können, müssen sie immer mit folgenden Klammern {{( vor der Bedingung und )}} nach der Bedingung formuliert werden.
+Grundlage für Recodes: Damit Recodes auch als Filter benutzt werden können, müssen sie immer mit folgenden Klammern `{{(` vor der Bedingung und `)}}` nach der Bedingung formuliert werden.
 
 **Beispiele für Recodes:**
 
@@ -74,7 +74,7 @@ Beispiel 1: Bildung von Top2-Boxes
 
 Bedingung der Top2-Box ist, dass die Werte 1 und 2 der Variable f5, in diesem Fall die Top2 der Variable, zusammengezählt werden.
 
-Formel: {{(f5='1' OR f5='2')}}
+Formel: `{{(f5='1' OR f5='2')}}`
 
 Beispiel 2: Bildung von Altersgruppen
 
@@ -82,7 +82,7 @@ Beispiel 2: Bildung von Altersgruppen
 
 Vorliegend wurde das Alter in der Variable f6 numerisch erfasst. Um nun Altersgruppen zu bilden, werden Bedingungen wie bspw. ‚alle Befragten die 18 und älter und jünger als 36 sind‘ formuliert.
 
-Formel: {{(f6>= 18 AND f6<= 35)}}
+Formel: `{{(f6>= 18 AND f6<= 35)}}`
 
 Beispiel 3: Definition Nutzer/ Nicht-Nutzer
 
@@ -108,10 +108,10 @@ Enthält eine Variable genre Labels wie bspw. Drama, kann die Häufigkeit des Ge
 
 -   Keine Leerzeichen vor/nach Berechnungsanweisungen wie beispielsweise SUM machen
     
--   Da berechnete Variablen nicht als Filter verwendet werden können, genügen die Klammern {{ vor und }} nach der Berechnungsanweisung
+-   Da berechnete Variablen nicht als Filter verwendet werden können, genügen die Klammern `{{` vor undi `}}` nach der Berechnungsanweisung
     
--   Wenn man den Charttyp b-bar angibt, muss hinter den geschweiften Klammern ein Gleichheitszeichen sein `{{= }}
--   Wenn man den Charttyp calculation angibt, wird das Gleichheitszeichen nicht benötigt `{{ }}
+-   Wenn man den Charttyp b-bar angibt, muss hinter den geschweiften Klammern ein Gleichheitszeichen sein `{{= }}`
+-   Wenn man den Charttyp calculation angibt, wird das Gleichheitszeichen nicht benötigt `{{ }}`
 Beispiel 1: Berechnung  NPS-Score
 
 ![mceclip6.png](/img/3407936.png)
