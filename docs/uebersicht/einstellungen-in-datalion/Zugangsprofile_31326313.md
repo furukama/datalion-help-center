@@ -119,7 +119,7 @@ Wenn Pagination (s.o.) aktiviert ist, kann mit der Einstellung „Angezeigte Ele
 
 **Ein Beispiel:**
 
-```java
+```
 [{"title": " Mein Report ", "ignore_empty_rows": true, "ignore_empty_columns": true, "hide_value_labels": true, "totals":[{"value":"n","label":"Total"}], "filter": [], "columns": [{"variable_id": 1},  {"variable_id": 3, "label": "Länder ","filters": []}],   "rows":  [  {"variable_id": 3, "label": "Länder ","filters": []}], "values": [{"value": "columnPercent", "label": "%","format": "0%"}]  }]
 ```
 

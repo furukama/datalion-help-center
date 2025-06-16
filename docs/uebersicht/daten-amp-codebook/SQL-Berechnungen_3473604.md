@@ -45,13 +45,13 @@ In DataLion ist es nicht nur möglich, mit SQL-Berechnungen beliebige Formeln zu
 
 So kann zum Beispiel ein ODER-Filter wie folgt definiert werden:
 
-```java
+```
 {{ (VARIABLE_1 = "Ja" OR VARIABLE_2 = "Ja") }}
 ```
 
 Oder ein Filter, der alle Ausprägungen 1, 2, 3 einer Variable zählt:
 
-```java
+```
 {{ VARIABLE IN (1,2,3) }}
 ```
 

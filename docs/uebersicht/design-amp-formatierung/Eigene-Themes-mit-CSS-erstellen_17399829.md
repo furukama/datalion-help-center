@@ -21,7 +21,7 @@ In diesem CSS-File definieren Sie Ihr CSS für das Theme. Es enthält alle Selek
 
 So kann Ihr CSS beispielsweise aussehen: 
 
-```java
+```
 #page-wrapper, .footer {
     background-color: teal;
     font-family: fixedsys, consolas, monospace;

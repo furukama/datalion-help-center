@@ -68,7 +68,7 @@ Recode bedeutet, dass man durch die Formulierung von Bedingungen, die auf einer 
 
 Berechnung bedeutet, dass aus einer bestehenden Variable eine neue Variable berechnet wird. Berechnete Variablen können nicht als Filter verwendet werden.
 
-Grundlage für Recodes: Damit Recodes auch als Filter benutzt werden können, müssen sie immer mit folgenden Klammern `{{( vor der Bedingung und )}}` nach der Bedingung formuliert werden.
+Grundlage für Recodes: Damit Recodes auch als Filter benutzt werden können, müssen sie immer mit folgenden Klammern `{{(` vor der Bedingung und `)}}` nach der Bedingung formuliert werden.
 
 **Beispiele für Recodes:**
 
@@ -78,7 +78,7 @@ Beispiel 1: Bildung von Top2-Boxes
 
 Bedingung der Top2-Box ist, dass die Werte 1 und 2 der Variable f5, in diesem Fall die Top2 der Variable, zusammengezählt werden.
 
-```java
+```
 Formel: {{(f5='1' OR f5='2')}}
 ```
 
@@ -88,7 +88,7 @@ Beispiel 2: Bildung von Altersgruppen
 
 Vorliegend wurde das Alter in der Variable f6 numerisch erfasst. Um nun Altersgruppen zu bilden, werden Bedingungen wie bspw. ‚alle Befragten die 18 und älter und jünger als 36 sind‘ formuliert.
 
-```java
+```
 Formel: {{(f6>= 18 AND f6<= 35)}}
 ```
 
@@ -100,14 +100,14 @@ Wenn ein Befragter bei mindestens einer der drei Variablen(OR) Ausprägung 1, 2 
 
 Formel Nutzer (einzutragen in Werte-Feld):
 
-```java
+```
 {{( (f1>=1 AND f1<=3) OR (f2>=1 AND f2<=3) OR (f3>=1 AND f3<=3) )}}
 ```
 
 Folglich zählen die Befragten, die bei allen Variablen f1, f2 und f3(AND) ausschließlich Ausprägungen 4, 5 oder 6(AND) ausgewählt haben oder die Fragen gar nicht (Wert: -99(OR)) beantwortet haben zu den Nicht-Nutzern.  
 Formel Nicht-Nutzer (einzutragen in Werte-Feld):
 
-```java
+```
 {{( (f1>=4 AND f1<=6 OR f1=-99) AND (f2>=6 AND f2<=6 OR f2=-99) AND (f3>=4 AND f3<=6 OR f3=-99) )}}
 ```
 
@@ -115,7 +115,7 @@ Beispiel 4: Zählen wenn
 
 Enthält eine Variable genre Labels wie bspw. Drama, kann die Häufigkeit des Genres Drama über folgende Formel (einzutragen im Werte-Feld) ausgezählt werden:
 
-```java
+```
 {{(genre LIKE '%Drama%')}}
 ```
 
@@ -140,7 +140,7 @@ Beispiel 2: Berechnung einer Total-Variable
 
 Mit folgender Formel (einzutragen im Werte-Feld) kann man eine Total Variable berechnen, also eine Variable, in welcher alle im Datensatz vorkommenden Fälle gezählt werden:
 
-```java
+```
 {{= COUNT(*)}}
 ```
 
@@ -148,7 +148,7 @@ Beispiel 3: Prozentuierung auf einer anderen Basis
 
 Mit folgender Formel (einzutragen im Werte-Feld) kann man die Ausprägung 1 einer Variable f1 auf einer anderen Basis, hier auf Basis aller Werte, die in der Variable total  Ausprägung 1 sind, prozentuieren:
 
-```java
+```
 {{=(100*(SUM(f1 IN (1)))/(SUM(total IN (1))))}}
 ```
 
@@ -156,7 +156,7 @@ Beispiel 4: Mittelwert ohne Einberechnung fehlender Werte
 
 Wenn eine Variable f1 fehlende Werte (definiert als bspw. -77) enthält, wird bei der Berechnung des Mittelwerts die -77 berücksichtigt, weshalb ein unsinniger Wert ausgegeben wird. Mit folgender Formel (einzutragen im Werte-Feld) wird der Mittelwert der Variable f1 ohne die fehlenden Werte berechnet:
 
-```java
+```
 {{=SUM(CASE WHEN f1= "-77" THEN f1 ELSE 0 END) / SUM(f1= "-77")}}
 ```
 
@@ -164,7 +164,7 @@ Beispiel 5: Berechnung der Veränderung des Absatzes absolut (12M, letzte 12 Mon
 
 Mit folgender Formel (einzutragen im Werte-Feld) kann man die Veränderung des Absatzes absolut berechnen:
 
-```java
+```
 SUM(CASE WHEN periode > (SELECT DATE_SUB(MAX(periode), INTERVAL 12 month) FROM dashboard_data_table_10) THEN absatz ELSE 0 end) - SUM(CASE WHEN periode > (SELECT DATE_SUB(MAX(periode), INTERVAL 24 month) FROM dashboard_data_table_10) AND periode < (SELECT DATE_SUB(MAX(periode), INTERVAL 12 month) FROM dashboard_data_table_10) THEN absatz ELSE 0 end)
 ```
 
@@ -172,7 +172,7 @@ Beispiel 6: Berechnung der Veränderung des Absatzes in % (12M, letzte 12 Monate
 
 Mit folgender Formel (einzutragen im Werte-Feld) kann man die Veränderung des Absatzes in Prozent berechnen:
 
-```java
+```
 100 * (SUM(CASE WHEN periode > (SELECT DATE_SUB(MAX(periode), INTERVAL 12 month) FROM dashboard_data_table_10) THEN absatz ELSE 0 end) - SUM(CASE WHEN periode > (SELECT DATE_SUB(MAX(periode), INTERVAL 24 month) FROM dashboard_data_table_10) AND periode < (SELECT DATE_SUB(MAX(periode), INTERVAL 12 month) FROM dashboard_data_table_10) THEN absatz ELSE 0 end)) / SUM(CASE WHEN periode > (SELECT DATE_SUB(MAX(periode), INTERVAL 12 month) FROM dashboard_data_table_10) THEN absatz ELSE 0 end)
 ```
 
