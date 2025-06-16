@@ -67,7 +67,7 @@ Der Code im Eingabefeld **Gewichtungsskript-Konfiguration** erzeugt Gewichte, s
 
 **Beispiel**: Der untenstehende Code erstellt Gewichte, so dass die Verteilung der beiden Ausprägungen "0" und "1" der Variable "Q1" 60 % zu 40 % ist:
 
-```plain
+```
 {"label": "Update weights", "type": "cell", "targets": {"Q1": {"0": 0.6, "1": 0.4}}, "weight_column": "weight", "id_column": "id"}
 ```
 
