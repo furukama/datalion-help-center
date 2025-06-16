@@ -1,0 +1,1286 @@
+{
+  "summary": {
+    "totalFiles": 255,
+    "successful": 255,
+    "failed": 0,
+    "timestamp": "2025-06-16T09:03:36.464Z"
+  },
+  "successful": [
+    {
+      "input": "%23TO-DO%23-Map-Charts-erstellen_5341219.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/%23TO-DO%23-Map-Charts-erstellen_5341219.md",
+      "title": "#TO DO# Map Charts erstellen"
+    },
+    {
+      "input": "10256398.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/10256398.md",
+      "title": "Zero-Downtime-Update (automatisch)"
+    },
+    {
+      "input": "10289195.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/10289195.md",
+      "title": "Einstieg in DataLion: Von den (Demo)-Rohdaten zum Dashboard"
+    },
+    {
+      "input": "10879004.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/10879004.md",
+      "title": "Visualisieren von Mehrfachnennungen (Multiple Choice)"
+    },
+    {
+      "input": "10977314.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/10977314.md",
+      "title": "Textboxen einfügen und bearbeiten"
+    },
+    {
+      "input": "11796486.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/11796486.md",
+      "title": "Einfügen von Bildern und weiteren Medien"
+    },
+    {
+      "input": "170000400.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/170000400.md",
+      "title": "Warum führt mein Excel Export führt zu einer Fehlermeldung?"
+    },
+    {
+      "input": "170033154.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/170033154.md",
+      "title": "Warum werden Bilder in meinen Dashboards nicht mehr dargestellt?"
+    },
+    {
+      "input": "178094081.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/178094081.md",
+      "title": "From (demo) raw data to the dashboard [eng]"
+    },
+    {
+      "input": "19595265.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/19595265.md",
+      "title": "Zero-Downtime-Update (manuell)"
+    },
+    {
+      "input": "20709424.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/20709424.md",
+      "title": "Individuelle Farbschemata nach Frage/Variable anlegen"
+    },
+    {
+      "input": "2982609.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/2982609.md",
+      "title": "Übersicht"
+    },
+    {
+      "input": "3014981.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/3014981.md",
+      "title": "Die wichtigsten weiterführenden Einstellungen und Gestaltungsmöglichkeiten"
+    },
+    {
+      "input": "31227921.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/31227921.md",
+      "title": "Variablen, die in allen Datenquellen vorkommen /  Filtervariablen über Datenquellen hinweg"
+    },
+    {
+      "input": "31260742.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/31260742.md",
+      "title": "Variablen / Ausprägungen im Codebook ergänzen (nach einem Datenupdate)"
+    },
+    {
+      "input": "31293445.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/31293445.md",
+      "title": "(Mehrere) Datenquellen in einem Projekt verwenden"
+    },
+    {
+      "input": "31326237.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/31326237.md",
+      "title": "Rechtemanagement (Admin, Bearbeiter, Betrachter)"
+    },
+    {
+      "input": "33587204.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/33587204.md",
+      "title": "Mein ppt Master Export sieht nicht so aus, wie er sollte. Was kann ich tun?"
+    },
+    {
+      "input": "3407981.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/3407981.md",
+      "title": "Design & Formatierung"
+    },
+    {
+      "input": "3408129.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/3408129.md",
+      "title": "Software-Update durchführen"
+    },
+    {
+      "input": "3440667.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/3440667.md",
+      "title": "Daten & Codebook"
+    },
+    {
+      "input": "3441205.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/3441205.md",
+      "title": "Vorbereitung von Daten / Daten-Preprocessing für den Upload"
+    },
+    {
+      "input": "3473553.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/3473553.md",
+      "title": "Welche Charttypen gibt es und wie kann ich sie verwenden?"
+    },
+    {
+      "input": "3539109.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/3539109.md",
+      "title": "Dashboards & Charts – Übersicht & Anleitungen"
+    },
+    {
+      "input": "3539260.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/3539260.md",
+      "title": "Codebook: Unterschiedliche Basen + die Basis einer Frage selbst berechnen"
+    },
+    {
+      "input": "3539305.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/3539305.md",
+      "title": "Tabellen in DataLion: spezifische Charteinstellungen"
+    },
+    {
+      "input": "3539336.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/3539336.md",
+      "title": "Wie erstelle ich eine bedingte Formatierung im Charttyp Tabelle?"
+    },
+    {
+      "input": "4096035.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/4096035.md",
+      "title": "Umgang mit fehlenden Werten (missing values)"
+    },
+    {
+      "input": "4194319.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/4194319.md",
+      "title": "Das DataLion Codebook - Ein mächtiges Werkzeug für große Studiendashboards"
+    },
+    {
+      "input": "43483139.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/43483139.md",
+      "title": "Der \"Hilfe\" Button überdeckt das untere Eck meines Charts/meiner Textbox und ich kann deswegen die Größe nicht mehr ändern. Was kann ich tun?"
+    },
+    {
+      "input": "43614222.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/43614222.md",
+      "title": "Codebook Skript: Anpassung und Erweiterung der Codebookerstellung"
+    },
+    {
+      "input": "45449226.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/45449226.md",
+      "title": "Default für Dashboard Dropdownfilter im Codebook anlegen"
+    },
+    {
+      "input": "45678593.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/45678593.md",
+      "title": "Dashboard Filter (Dropdownfilter) erstellen per click&select - grundlegende Optionen"
+    },
+    {
+      "input": "5210150.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/5210150.md",
+      "title": "Troubleshooting: Ladezeiten"
+    },
+    {
+      "input": "5242894.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/5242894.md",
+      "title": "Troubleshooting - Filter auf dem Dashboard/im Dropdownmenü funktionieren nicht"
+    },
+    {
+      "input": "5275671.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/5275671.md",
+      "title": "Troubleshooting: SQL-Formel/Filter funktioniert nicht"
+    },
+    {
+      "input": "56459280.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/56459280.md",
+      "title": "Ich habe Veränderungen an den Einstellungen meines Datepickers für einen Dashboard-Filter vorgenommen, diese werden aber nicht angezeigt. Was kann ich tun?"
+    },
+    {
+      "input": "65830913.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/65830913.md",
+      "title": "Einen vordefinierten Excel-Export erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "71794697.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/71794697.md",
+      "title": "Filtervariablen dynamisch mit Unterabfragen (Sub-queries/ Sub-Selects) erstellen"
+    },
+    {
+      "input": "80969738.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/80969738.md",
+      "title": "Einen Chart / ein Diagramm erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "81035291.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/81035291.md",
+      "title": "Einen Report erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "81035305.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/81035305.md",
+      "title": "Projekteinstellungen - Einstellungen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "81068044.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/81068044.md",
+      "title": "Startseite und Navigation [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "81100823.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/81100823.md",
+      "title": "Automatischer Datenimport aus Google Drive [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "8126487.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/8126487.md",
+      "title": "Gestapeltes Diagramm mit mehreren Items erstellen (Fragen zusammenfügen)"
+    },
+    {
+      "input": "83066988.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83066988.md",
+      "title": "SQL-Abfragen: Subqueries mit Platzhaltern für Standard-Dropdownfilter [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83067065.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83067065.md",
+      "title": "Ein Zeitreihendiagramm erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83165260.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83165260.md",
+      "title": "Projekteinstellungen - Automatischer Datenimport [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83165420.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83165420.md",
+      "title": "Metrik pro Chart über das Codebook definieren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83165430.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83165430.md",
+      "title": "Einstellungen über das Codebook: Settings-Spalte [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83165463.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/83165463.md",
+      "title": "Dropdown-Menüs für Abfragen mit Platzhaltern [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83165475.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83165475.md",
+      "title": "Rohdatencharts erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198100.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83198100.md",
+      "title": "Ein Projekt klonen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198138.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83198138.md",
+      "title": "Projekteinstellungen - Zugang [Artikel in Bearbeitung/ veraltet]"
+    },
+    {
+      "input": "83198150.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83198150.md",
+      "title": "Tabellen in DataLion: Sortierreihenfolge der Zeilen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198162.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83198162.md",
+      "title": "Ein Netzwerkdiagramm oder Chorddiagramm erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198172.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83198172.md",
+      "title": "Ein Radarchart erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198200.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83198200.md",
+      "title": "Ein XY-Bubblechart erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83198215.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83198215.md",
+      "title": "Charts mit Zielgruppen/Teilgruppen (Filter) erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83230735.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83230735.md",
+      "title": "Datenquellen: Datentabellen filtern [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83230803.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83230803.md",
+      "title": "Einstellungen zur Anzeige von Werten - Value display [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83230835.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83230835.md",
+      "title": "Datenquellen: Spalten bearbeiten [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263499.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83263499.md",
+      "title": "Berechnungsvariablen aktivieren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263527.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83263527.md",
+      "title": "Mouseover Einstellungen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263763.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83263763.md",
+      "title": "Projekteinstellungen - Datenquellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263828.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83263828.md",
+      "title": "Signifikanzen in Tabellen: Signifikanzangaben bei Gruppenvergleichen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263848.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83263848.md",
+      "title": "Ein Säulendiagramm mit Differenzen erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83263874.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83263874.md",
+      "title": "Die Bearbeitungsleiste im Chart-Header (Charteinstellungen/Chartmenü) [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83329064.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83329064.md",
+      "title": "Reportsübersicht [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83329104.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83329104.md",
+      "title": "Datenimport - Feldlängen, Spaltentypen und Nullwerte [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83329115.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/83329115.md",
+      "title": "Daten ins System importieren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83329147.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83329147.md",
+      "title": "Projekteinstellungen - Codebuch [Artikel in Bearbeitung/ veraltet]"
+    },
+    {
+      "input": "83329162.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83329162.md",
+      "title": "Mehrfachnennungen visualiseren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83329235.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83329235.md",
+      "title": "Unterschiedliche Charttypen aktivieren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83492879.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83492879.md",
+      "title": "Automatischer Datenimport aus Dropbox [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83722243.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83722243.md",
+      "title": "Projekteinstellungen - Kategorien [Artikel in Bearbeitung/ veraltet]"
+    },
+    {
+      "input": "83722281.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/83722281.md",
+      "title": "Der Codebuch-Generator [Artikel in Bearbeitung/ veraltet]"
+    },
+    {
+      "input": "83722335.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83722335.md",
+      "title": "Balken- und Liniencharts miteinander kombinieren [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83722364.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83722364.md",
+      "title": "Einstellungen für Charts [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83755064.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/83755064.md",
+      "title": "Codebook: Unterschiedliche Basen + die Basis einer Frage selbst berechnen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "83755362.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/83755362.md",
+      "title": "Charts als Favoriten speichern (\"Warenkorb\" für Charts) [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84017189.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/84017189.md",
+      "title": "Verschiedene HTML Elemente in DataLion [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84017210.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/84017210.md",
+      "title": "Warum werden auf der Startseite keine Projekte angezeigt? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84082690.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/84082690.md",
+      "title": "CSS in DataLion einfügen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84082701.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/84082701.md",
+      "title": "Was ist HTML? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84082711.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/84082711.md",
+      "title": "Spezifische CSS Elemente in DataLion [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84082753.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/84082753.md",
+      "title": "Schriftarten in DataLion ändern und anpassen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84115484.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/84115484.md",
+      "title": "Tipps & Tricks für das Arbeiten mit HTML & CSS Formatierungen in DataLion [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84148245.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/84148245.md",
+      "title": "Vorgefertigte Codestrukturen für DataLion [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84180993.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/84180993.md",
+      "title": "Was ist CSS? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84279354.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/84279354.md",
+      "title": "Ein Hintergrundbild in das Dashboard einbinden [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "84377603.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/administration/84377603.md",
+      "title": "Login-Seite: Footer hinzufügen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "85295109.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/85295109.md",
+      "title": "User Login: 2-Faktor-Authentifizierung [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "85524487.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/85524487.md",
+      "title": "Metrik Index [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "85590025.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/85590025.md",
+      "title": "Authentifizierungstokens erneuern [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "85721089.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/85721089.md",
+      "title": "Sicherheitstipps für DataLion [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "85721144.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/85721144.md",
+      "title": "First steps in DataLion [Article under maintenance]"
+    },
+    {
+      "input": "85786626.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/85786626.md",
+      "title": "Navigation auf der Projektstartseite ein-/ ausblenden [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016018.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016018.md",
+      "title": "Vertikale oder berechnete Datensätze [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016057.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86016057.md",
+      "title": "Net promoter score (NPS) berechnen"
+    },
+    {
+      "input": "86016103.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016103.md",
+      "title": "Kann DataLion Signifikanzen ausweisen? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016117.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016117.md",
+      "title": "Können Benchmarks dargestellt werden? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016145.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016145.md",
+      "title": "Ist der Datenupload von SPSS Dateien möglich? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016174.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86016174.md",
+      "title": "Warum sehe ich die Reports eines geklonten Projekts nicht? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016216.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016216.md",
+      "title": "Gibt es eine Agency-Lizenz und Lizenzen für Multiclientstudien? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86016230.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016230.md",
+      "title": "Ready-made code structures for DataLion [Article under maintenance]"
+    },
+    {
+      "input": "86016269.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86016269.md",
+      "title": "What is CSS? [Article under maintenance]"
+    },
+    {
+      "input": "86048791.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86048791.md",
+      "title": "Performance verbessern/ Ladezeiten verkürzen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048877.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86048877.md",
+      "title": "Wie finde ich die ID einer Frage oder Ausprägung heraus? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048887.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86048887.md",
+      "title": "Warum werden meine Werte alphabetisch sortiert? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048921.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86048921.md",
+      "title": "Leere Werte in Exasol [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048943.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86048943.md",
+      "title": "Welche Filterungsmöglichkeiten gibt es? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048956.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86048956.md",
+      "title": "Kann ich die Darstellungen an meine CI individuell anpassen? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86048979.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86048979.md",
+      "title": "Welche Datenformate können importiert werden? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86049011.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86049011.md",
+      "title": "Warum werden im Zeitreihenchart manchmal andere Fallzahlen ausgegeben als in anderen Charts? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86049039.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86049039.md",
+      "title": "Was bedeuten Dashboard-IDs und Referenzierungen? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86049098.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86049098.md",
+      "title": "Was bedeutet die Fehlermeldung \"Incorrect Table Name\" beim Hochladen eines Datensatzes? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86049126.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86049126.md",
+      "title": "Können Charts oder Dashboards auf externen Webseiten eingebettet werden? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86049169.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86049169.md",
+      "title": "Create your own themes with CSS [Article under maintenance]"
+    },
+    {
+      "input": "86114372.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86114372.md",
+      "title": "Wie wird die Usability in DataLion erleichtert? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86114388.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86114388.md",
+      "title": "Kann DataLion Gewichtungen darstellen? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86114446.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86114446.md",
+      "title": "Warum funktioniert meine SQL-Abfrage mit der Variable \"Alter\" nicht? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86114518.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86114518.md",
+      "title": "Specific HTML & CSS elements in DataLion [Article under maintenance]"
+    },
+    {
+      "input": "86212610.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86212610.md",
+      "title": "Platzhalter für aktive Standard-Dropdownfilter-Werte |*GFV*| [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212649.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86212649.md",
+      "title": "Rekodierungen und Berechnungen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212660.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212660.md",
+      "title": "Fallzahluntergrenzen und -warnungen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212686.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86212686.md",
+      "title": "Seitennavigation ausblenden [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212750.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212750.md",
+      "title": "Wie werden Fallzahlen in DataLion dargestellt? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212760.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86212760.md",
+      "title": "Können Ausprägungen sortiert werden? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212772.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86212772.md",
+      "title": "Ist mit den DataLion Dashboards auch Storytelling möglich? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212798.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212798.md",
+      "title": "DSGVO-Konformität [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212818.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212818.md",
+      "title": "Warum zeigt mein Chart trotz korrekter Berechnung keine Werte an? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212829.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/support/86212829.md",
+      "title": "Warum werden beim Anlegen und Bearbeiten von Benutzern Felder automatisch gefüllt? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212840.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212840.md",
+      "title": "Warum werden nach dem Codebook-Upload im Backend keine Kategorien angezeigt? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86212902.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86212902.md",
+      "title": "How can I change and customize fonts in DataLion? [Article under maintenance]"
+    },
+    {
+      "input": "86212912.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86212912.md",
+      "title": "How do I set a background image in the dashboard? [Article under maintenance]"
+    },
+    {
+      "input": "86212969.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86212969.md",
+      "title": "Where can I place CSS? [Article under maintenance]"
+    },
+    {
+      "input": "86245377.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86245377.md",
+      "title": "Dezimalpräzision festlegen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86245387.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86245387.md",
+      "title": "Dynamische Dashboard-Titel: Dropdown-Filterauswahl anzeigen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86245397.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86245397.md",
+      "title": "Lesezeichen setzen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86245434.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86245434.md",
+      "title": "Neue Variablen aus Timestamps erstellen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86245447.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86245447.md",
+      "title": "Welche Charttypen gibt es? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278188.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86278188.md",
+      "title": "Spezifische Kategorien in der Navigation ausblenden [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278244.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86278244.md",
+      "title": "Welche Datenmengen sind möglich? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278263.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86278263.md",
+      "title": "Welche APIs / Schnittstellen bietet DataLion an? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278273.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86278273.md",
+      "title": "Wie kann ich Datentransformationen in DataLion vornehmen?"
+    },
+    {
+      "input": "86278283.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86278283.md",
+      "title": "Ist das Hosting auf unternehmenseigenem Server möglich? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278307.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/administration/86278307.md",
+      "title": "Was bedeutet die Fehlermeldung \"This Action is unauthorized\"? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278327.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86278327.md",
+      "title": "Warum wird das Filtersymbol in Charts nicht angezeigt? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278358.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86278358.md",
+      "title": "Wie kann ich in gestapelten Diagrammen die Fallzahl pro Balken ausgeben lassen? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86278374.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86278374.md",
+      "title": "Tips & tricks for working with HTML & CSS formatting in DataLion [Article under maintenance]"
+    },
+    {
+      "input": "86310954.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86310954.md",
+      "title": "Daten - Spaltenbeschriftungen und Zeilenumbrüche [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86310972.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86310972.md",
+      "title": "Gewichtung über das Dropdown-Menü [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86310995.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86310995.md",
+      "title": "Welche Chart-Einstellungen gibt es? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311038.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/filtering/86311038.md",
+      "title": "Welche Datenexporte sind möglich? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311053.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86311053.md",
+      "title": "Server & SaaS (Cloud / on premise) [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311065.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86311065.md",
+      "title": "Warum zeigen Charts, die sich auf die letzte Spalte des Datensatzes beziehen, keine Werte? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311077.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86311077.md",
+      "title": "Wie kann ich das Rollen- und Rechtemanagement in DataLion verwalten? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311097.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86311097.md",
+      "title": "Welchen Support bietet DataLion an? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86311107.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86311107.md",
+      "title": "Bietet DataLion auch eine Whitelabel-Lösung an? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343689.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86343689.md",
+      "title": "Charts von Dropdownfiltern ausschließen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343740.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86343740.md",
+      "title": "Reporteinstellungen [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343841.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86343841.md",
+      "title": "Gibt es eine Begrenzung hinsichtlich der Anzahl an Dashboards? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343865.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86343865.md",
+      "title": "Können Medien im Dashboard eingebunden werden? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343883.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86343883.md",
+      "title": "Sind die Dashboards responsiv? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343923.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86343923.md",
+      "title": "Welche Automatisierungen bietet DataLion an? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86343947.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86343947.md",
+      "title": "Was ist der Standort des DataLion-Servers? [Artikel in Bearbeitung]"
+    },
+    {
+      "input": "86344021.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86344021.md",
+      "title": "How do I create a start page/homepage for my project? [Article under maintenance]"
+    },
+    {
+      "input": "86344058.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86344058.md",
+      "title": "Various HTML Elements [Article under maintenance]"
+    },
+    {
+      "input": "86344068.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86344068.md",
+      "title": "What is HTML? [Article under maintenance]"
+    },
+    {
+      "input": "86867981.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86867981.md",
+      "title": "First Steps in DataLion - Creating a project from a sav file (alternative procedure) [Article under maintenance]"
+    },
+    {
+      "input": "86868053.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86868053.md",
+      "title": "Reports overview [Article under maintenance]"
+    },
+    {
+      "input": "86868064.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86868064.md",
+      "title": "Use multiple data sources in a project [Article under maintenance]"
+    },
+    {
+      "input": "86868089.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86868089.md",
+      "title": "Settings for displaying values - Value display [Article under maintenance]"
+    },
+    {
+      "input": "86900738.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86900738.md",
+      "title": "First Steps in DataLion - Creating a project from a csv or sav file [Article under maintenance]"
+    },
+    {
+      "input": "86900751.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86900751.md",
+      "title": "Login and Registration [Article under maintenance]"
+    },
+    {
+      "input": "86900764.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86900764.md",
+      "title": "Mouseover settings [Article under maintenance]"
+    },
+    {
+      "input": "86900777.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86900777.md",
+      "title": "Access profiles [Article under maintenance]"
+    },
+    {
+      "input": "86900970.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86900970.md",
+      "title": "Clone a project [Article under maintenance]"
+    },
+    {
+      "input": "86933675.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/86933675.md",
+      "title": "Projectsettings - Access [Article under maintenance]"
+    },
+    {
+      "input": "86933685.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86933685.md",
+      "title": "Data import - column types and zero values [Article under maintenance]"
+    },
+    {
+      "input": "86933715.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86933715.md",
+      "title": "How to import data into DataLion [Article under maintenance]"
+    },
+    {
+      "input": "86966454.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86966454.md",
+      "title": "Management of rights (admin, editor, viewer) [Article under maintenance]"
+    },
+    {
+      "input": "86966475.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/86966475.md",
+      "title": "How do I create a diagram or chart? [Article under maintenance]"
+    },
+    {
+      "input": "86966499.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86966499.md",
+      "title": "Projectsettings - Data Source [Article under maintenance]"
+    },
+    {
+      "input": "86966511.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86966511.md",
+      "title": "Projectsettings - Data [Article under maintenance]"
+    },
+    {
+      "input": "86999042.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/86999042.md",
+      "title": "Perform a DataLion software update [Article under maintenance]"
+    },
+    {
+      "input": "86999189.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/86999189.md",
+      "title": "Navigation [Article under maintenance]"
+    },
+    {
+      "input": "87064577.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87064577.md",
+      "title": "How to report problems and bugs [Article under maintenance]"
+    },
+    {
+      "input": "87064597.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/87064597.md",
+      "title": "Data preparation / preprocessing for the upload [Article under maintenance]"
+    },
+    {
+      "input": "87064795.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87064795.md",
+      "title": "Projectsettings - Media or how to integrate pictures? [Article under maintenance]"
+    },
+    {
+      "input": "87130113.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87130113.md",
+      "title": "How Do I create a Report in DataLion? [Article under maintenance]"
+    },
+    {
+      "input": "87162928.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87162928.md",
+      "title": "Data Sources: Edit Columns [Article under maintenance]"
+    },
+    {
+      "input": "87163028.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87163028.md",
+      "title": "Projectsettings - Codebook [Article under maintenance]"
+    },
+    {
+      "input": "87163038.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87163038.md",
+      "title": "Projectsettings - Auto Import [Article under maintenance]"
+    },
+    {
+      "input": "87293981.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87293981.md",
+      "title": "Projectsettings - General [Article under maintenance]"
+    },
+    {
+      "input": "87359505.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87359505.md",
+      "title": "Projectsettings - Categories [Article under maintenance]"
+    },
+    {
+      "input": "87490588.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87490588.md",
+      "title": "Dropdown menu for queries with dropdown-placeholders [Article under maintenance]"
+    },
+    {
+      "input": "87490702.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87490702.md",
+      "title": "The Codebook - Part 2 [Article under maintenance]"
+    },
+    {
+      "input": "87490712.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87490712.md",
+      "title": "SQL-queries in the codebook: Subqueries with placeholders [Article under maintenance]"
+    },
+    {
+      "input": "87523352.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87523352.md",
+      "title": "The Codebook Generator [Article under maintenance]"
+    },
+    {
+      "input": "87556100.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87556100.md",
+      "title": "Define metric per chart via codebook [Article under maintenance]"
+    },
+    {
+      "input": "87556129.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87556129.md",
+      "title": "Codebook: Different bases + calculate the base of a question yourself [Article under maintenance]"
+    },
+    {
+      "input": "87556143.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87556143.md",
+      "title": "Working with Missing Values in the Codebook [Article uner maintenance]"
+    },
+    {
+      "input": "87556159.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87556159.md",
+      "title": "Generate automatic codebook [Article under maintenance]"
+    },
+    {
+      "input": "87556178.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87556178.md",
+      "title": "How do I create a radar chart? [Article under maintenance]"
+    },
+    {
+      "input": "87556188.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87556188.md",
+      "title": "Significances in tables: How do you read the significance information in group comparisons? [Article under maintenance]"
+    },
+    {
+      "input": "87588956.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87588956.md",
+      "title": "How do I make a conditional coloring of values in the tables? [Article under maintenance]"
+    },
+    {
+      "input": "87654403.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/87654403.md",
+      "title": "Adjustments via the codebook: Settings column [Article under maintenance]"
+    },
+    {
+      "input": "87654486.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87654486.md",
+      "title": "Edit bar [Article under maintenance]"
+    },
+    {
+      "input": "87654497.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/87654497.md",
+      "title": "How do I save charts as favorites (\"shopping cart\" for charts)? [Article under maintenance]"
+    },
+    {
+      "input": "87719939.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87719939.md",
+      "title": "A filter variable from different data sources [Article under maintenance]"
+    },
+    {
+      "input": "87719961.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/87719961.md",
+      "title": "The Codebook - Part 1 [Article under maintenance]"
+    },
+    {
+      "input": "87720110.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87720110.md",
+      "title": "How do I create raw data charts? [Article under maintenance]"
+    },
+    {
+      "input": "87851014.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/87851014.md",
+      "title": "Generate automatic codebook - part 2 [Article under maintenance]"
+    },
+    {
+      "input": "88113155.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/88113155.md",
+      "title": "Which chart types are there and how can I use them? [Article under maintenance]"
+    },
+    {
+      "input": "88145922.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/88145922.md",
+      "title": "Tables in DataLion: specific chart settings (difference columns and links) [Article under maintenance]"
+    },
+    {
+      "input": "88276996.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/88276996.md",
+      "title": "How do I create an XY bubble chart? [Article uner maintenance]"
+    },
+    {
+      "input": "88834049.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/88834049.md",
+      "title": "Settings for Charts [Article under maintenance]"
+    },
+    {
+      "input": "88834060.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/88834060.md",
+      "title": "How do I create a time series chart? [Article under maintenance]"
+    },
+    {
+      "input": "88899593.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/88899593.md",
+      "title": "How do I create charts with target groups/subgroups (filters)? [Article under maintenance]"
+    },
+    {
+      "input": "9207824.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/9207824.md",
+      "title": "Startseite für ein Projekt anlegen"
+    },
+    {
+      "input": "9240579.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/9240579.md",
+      "title": "Dashboard Filter (Dropdownfilter) erstellen mit JSON - fortgeschrittene Optionen"
+    },
+    {
+      "input": "9306234.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/9306234.md",
+      "title": "Auf einem Dashboard mit Dropdownfilter bekomme ich den Fehler \"Too Many Redirects\". Was kann ich tun?"
+    },
+    {
+      "input": "97845250.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/97845250.md",
+      "title": "Mehrfachantworten aus Max-Multi-Format in Binäres Format umwandeln"
+    },
+    {
+      "input": "Automatisches-Codebook-erzeugen_3408253.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Automatisches-Codebook-erzeugen_3408253.md",
+      "title": "Automatisches Codebook erzeugen"
+    },
+    {
+      "input": "Beispiele-und-Best-Practices_3539157.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Beispiele-und-Best-Practices_3539157.md",
+      "title": "Beispiele und Best Practices"
+    },
+    {
+      "input": "Besonderheiten-in-Exasol_3408154.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Besonderheiten-in-Exasol_3408154.md",
+      "title": "Besonderheiten in Exasol"
+    },
+    {
+      "input": "Das-Codebook---Teil-1_3440656.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Das-Codebook---Teil-1_3440656.md",
+      "title": "Das Codebook - Teil 1"
+    },
+    {
+      "input": "Das-Codebook---Teil-2_3440677.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Das-Codebook---Teil-2_3440677.md",
+      "title": "Das Codebook - Teil 2"
+    },
+    {
+      "input": "Datenquellen-und-Datentabellen_10289154.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Datenquellen-und-Datentabellen_10289154.md",
+      "title": "Datenquellen und Datentabellen"
+    },
+    {
+      "input": "Datenupdates_31260724.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Datenupdates_31260724.md",
+      "title": "Datenupdates"
+    },
+    {
+      "input": "Demodaten-2_220790785.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Demodaten-2_220790785.md",
+      "title": "Demodaten 2"
+    },
+    {
+      "input": "Demodaten_8585220.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Demodaten_8585220.md",
+      "title": "Demodaten"
+    },
+    {
+      "input": "Eigene-Themes-mit-CSS-erstellen_17399829.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Eigene-Themes-mit-CSS-erstellen_17399829.md",
+      "title": "Eigene Themes mit CSS erstellen"
+    },
+    {
+      "input": "Einen-PowerPoint-Master-erstellen-und-einbinden_13565981.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/design/Einen-PowerPoint-Master-erstellen-und-einbinden_13565981.md",
+      "title": "Einen PowerPoint Master erstellen und einbinden"
+    },
+    {
+      "input": "Einen-maschinenlesbaren-Excel-Export-definieren_137723905.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Einen-maschinenlesbaren-Excel-Export-definieren_137723905.md",
+      "title": "Einen maschinenlesbaren Excel-Export definieren"
+    },
+    {
+      "input": "Einstellungen-in-DataLion_3539137.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Einstellungen-in-DataLion_3539137.md",
+      "title": "Einstellungen in DataLion"
+    },
+    {
+      "input": "Erste-Schritte-in-DataLion_3473511.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Erste-Schritte-in-DataLion_3473511.md",
+      "title": "Erste Schritte in DataLion"
+    },
+    {
+      "input": "Exporte_13467672.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Exporte_13467672.md",
+      "title": "Exporte"
+    },
+    {
+      "input": "FAQ_3539147.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/FAQ_3539147.md",
+      "title": "FAQ"
+    },
+    {
+      "input": "Folien-Master_13533224.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Folien-Master_13533224.md",
+      "title": "Folien Master"
+    },
+    {
+      "input": "Gewichtungen-in-DataLion_81002521.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Gewichtungen-in-DataLion_81002521.md",
+      "title": "Gewichtungen in DataLion"
+    },
+    {
+      "input": "In-5-Schritten-zum-ersten-Dashboard_3014937.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/In-5-Schritten-zum-ersten-Dashboard_3014937.md",
+      "title": "In 5 Schritten zum ersten Dashboard"
+    },
+    {
+      "input": "Instructions_85524497.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Instructions_85524497.md",
+      "title": "Instructions"
+    },
+    {
+      "input": "Kleine-Tipps-und-Tricks_71303169.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Kleine-Tipps-und-Tricks_71303169.md",
+      "title": "Kleine Tipps und Tricks"
+    },
+    {
+      "input": "Login-und-Registrierung_81035273.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Login-und-Registrierung_81035273.md",
+      "title": "Login und Registrierung"
+    },
+    {
+      "input": "SQL-Berechnungen_3473604.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/SQL-Berechnungen_3473604.md",
+      "title": "SQL-Berechnungen"
+    },
+    {
+      "input": "Sicherheit-und-Backups_43089946.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Sicherheit-und-Backups_43089946.md",
+      "title": "Sicherheit und Backups"
+    },
+    {
+      "input": "Tabellen-in-DataLion_3539243.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/data/Tabellen-in-DataLion_3539243.md",
+      "title": "Tabellen in DataLion"
+    },
+    {
+      "input": "Template---How-to-guide_2982621.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Template---How-to-guide_2982621.md",
+      "title": "Template - How-to guide"
+    },
+    {
+      "input": "Template---Troubleshooting-article_2982635.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Template---Troubleshooting-article_2982635.md",
+      "title": "Template - Troubleshooting article"
+    },
+    {
+      "input": "Tickets-richtig-erstellen_13533188.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Tickets-richtig-erstellen_13533188.md",
+      "title": "Tickets richtig erstellen"
+    },
+    {
+      "input": "Troubleshooting---Abweichende-Zahlen_5341194.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/guides/Troubleshooting---Abweichende-Zahlen_5341194.md",
+      "title": "Troubleshooting - Abweichende Zahlen"
+    },
+    {
+      "input": "Zugangsprofile_31326313.html",
+      "output": "/Users/bkoehler/src/datalion-help-center/docs/dashboards/Zugangsprofile_31326313.md",
+      "title": "Zugangsprofile"
+    }
+  ],
+  "failed": []
+}
